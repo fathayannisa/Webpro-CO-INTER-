@@ -1,0 +1,75 @@
+#side-nav {
+    width: 300px;
+    background-color: #B6E4F3;
+    height: 100vh;
+    position: fixed;
+}
+
+#side-nav .judul {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+#side-nav .informasi img{
+    margin-right: 5px;
+    padding-top: 1em;
+}
+
+#side-nav .informasi h4{
+    padding-top: 0.5em;
+}
+
+#side-nav .informasi h5{
+    font-weight: 400;
+}
+
+#side-nav .content{
+    padding: 0;
+}
+
+#side-nav .judul h1{
+    font-size: 40px;
+}
+
+#side-nav .content ul{
+    padding: 0;
+    list-style: none;
+}
+
+#side-nav .content ul li:nth-child(1){
+   margin-top: 2em;
+}
+
+#side-nav .content ul li{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 0px;
+    list-style: none;
+    transition: ease 350ms;
+    cursor: pointer;
+}
+
+#side-nav .content ul li:hover{
+    transition: ease 350ms;
+    background-color: #75ddff;
+}
+
+#side-nav .content ul li h5{
+    font-size: 20px;
+}
+
+
+#content {
+    width: 100%;
+    height: 100vh;
+    transition: 350ms ease;
+    overflow: hidden;
+    margin-right: 100px;
+    padding-left: 18em;
+}
+
+
+#content .table{
+    width: 100%;
+}
