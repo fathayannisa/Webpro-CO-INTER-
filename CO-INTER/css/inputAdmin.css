@@ -1,0 +1,29 @@
+#content form .col-sm-6 input {
+    margin-bottom: 1em;
+}
+
+#content form .col-sm-12 input {
+    margin-bottom: 1em;
+}
+
+#content{
+    height: 100%;
+}
+
+body {
+    overflow: scroll;
+}
+
+#side-nav .content a{
+    text-decoration: none;
+    color: black;
+}
+
+#side-nav .informasi img{
+    margin-right: 5px;
+    margin-top: 1em;
+    object-fit: cover;
+    width: 100px;
+    border-radius: 100%;
+    height: 110px;
+}

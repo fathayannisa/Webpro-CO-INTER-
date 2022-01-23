@@ -1,0 +1,13 @@
+#content .editProfile {
+    padding-right: 1em;
+}
+
+#content .editProfile .col-sm-12 h2{
+    padding-bottom: 1em;
+}
+
+#content .editProfile .col-sm-12 label{
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
